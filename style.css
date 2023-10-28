@@ -1,3 +1,14 @@
 body{
-    background-color: black;
+   
 }
+header{
+    margin-top: 25px;
+}
+header a {
+    display: inline; /* tag para deixar as palavras (ou os itens de um determinado bloco em linhas */ 
+    margin-right: 10px; /* tag para definir o espaçamento entre as palavras*/
+    color: black;
+    text-decoration: none;
+
+    
+} 
