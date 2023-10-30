@@ -1,5 +1,6 @@
 body{
-   
+    
+
 }
 header{
     margin-top: 25px;
@@ -9,4 +10,106 @@ header a {
     margin-right: 25px; /* tag para definir o espaçamento entre as palavras*/
     color:gray;
     text-decoration: none; /* Tirar o sublinhado do A href */
+    font-size: 20px;
 } 
+.menu-left{
+    float: left;
+    margin-right: 350px;
+
+}
+
+
+.carrinho{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: url('icones/carrinho-de-compras.png');
+    background-size: contain;
+
+}
+.icone {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: url('icones/ATI_icon.ico');
+    background-size: contain;
+}
+.E-commerce{
+    margin-left: -10px;
+    position: relative;
+    margin-top: 30px;
+    width: 101.25%;
+    height: 680px;
+    background: url("Imagens/Background_E-commerce.jpg") no-repeat;
+    background-size: cover;
+}
+
+.E-commerce::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.E-commerce h1 {
+    position: absolute;
+    top: 35%; /* Posiciona o elemento na metade superior da div */
+    left: 40%; /* Posiciona o elemento na metade esquerda da div */
+    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    color:white;
+}
+.E-commerce p{
+    position: absolute;
+    top: 50%; /* Posiciona o elemento na metade superior da div */
+    left: 40%; /* Posiciona o elemento na metade esquerda da div */
+    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    color:white;
+    font-size: 20px;
+
+}
+.E-commerce a {
+    width: 130px;
+    height: 50px;
+    border-radius:30px;
+    position: absolute;
+    top: 65%;
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 18px;
+    background-color: green;
+    line-height: 50px; 
+    text-align: center; 
+    text-decoration: none;
+}
+.Manutencao{
+    margin-top: 50px;
+    text-align: center;
+}
+.Manutencao div{
+    display: inline-block;
+    margin-right: 50px;    
+}
+.pacote1{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+   
+  
+}
+.pacote2{
+    height: 400px;
+    width: 400px;
+    background-color:blue ;
+
+}
+.pacote3{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+
