@@ -12,9 +12,10 @@ header a {
     text-decoration: none; /* Tirar o sublinhado do A href */
     font-size: 20px;
 } 
-.menu-left{
-    float: left;
-    margin-right: 350px;
+.menu-rigth{
+    float: right;
+    margin-left: 500px;
+    margin-top: -20px;
 
 }
 
@@ -36,7 +37,7 @@ header a {
     background-image: url('icones/ATI_icon.ico');
     background-size: contain;
 }
-.E-commerce{
+#E-commerce{
     margin-left: -10px;
     position: relative;
     margin-top: 30px;
@@ -46,7 +47,7 @@ header a {
     background-size: cover;
 }
 
-.E-commerce::before {
+#E-commerce::before {
     content: "";
     position: absolute;
     top: 0;
@@ -55,14 +56,14 @@ header a {
     left: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-.E-commerce h1 {
+#E-commerce h1 {
     position: absolute;
     top: 35%; /* Posiciona o elemento na metade superior da div */
     left: 40%; /* Posiciona o elemento na metade esquerda da div */
     transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
     color:white;
 }
-.E-commerce p{
+#E-commerce p{
     position: absolute;
     top: 50%; /* Posiciona o elemento na metade superior da div */
     left: 40%; /* Posiciona o elemento na metade esquerda da div */
@@ -71,7 +72,7 @@ header a {
     font-size: 20px;
 
 }
-.E-commerce a {
+#E-commerce a {
     width: 130px;
     height: 50px;
     border-radius:30px;
@@ -86,30 +87,107 @@ header a {
     text-align: center; 
     text-decoration: none;
 }
-.Manutencao{
+#aplicacoes{
     margin-top: 50px;
     text-align: center;
 }
-.Manutencao div{
+#aplicacoes div{
     display: inline-block;
     margin-right: 50px;    
+}
+#aplicacoes h1{
+    color: black;
+}
+#aplicacoes p{
+    font-size: 20px;
+    color: black;
+}
+#aplicacoes img{
+    margin-top: 50px;
 }
 .pacote1{
     height: 400px;
     width: 400px;
-    background-color: red;
-   
-  
+    border: 0.5px solid black; 
+    background-color: white;
+    color: black;
 }
+.pacote1 img{
+    height: 150px;
+    width: 280px;
+
+}
+
+
 .pacote2{
     height: 400px;
     width: 400px;
-    background-color:blue ;
-
+    background-color:white ;
+    border: 0.5px solid black;
+   
+}
+.pacote2 img{
+    height: 150px;
+    width: 280px;
+   
 }
 .pacote3{
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
+    border: 0.5px solid black;
 }
+.pacote3 img{
+    height: 150px;
+    width: 280px;
 
+}
+#ux{
+    margin-left: -10px;
+    position: relative;
+    margin-top: 30px;
+    width: 101.25%;
+    height: 680px;
+    background: url("Imagens/UI-UX-Design.jpg") no-repeat;
+    background-size: cover;
+}
+#ux::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+}
+#ux h1{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    color: white;
+    
+}
+#ux p{
+    position: absolute;
+    font: bolder, 'Arial';
+    font-size: 17px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    top: 45%;
+    left: 18%;
+}
+#ux a{
+    position: absolute;
+    top:69%;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color:white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 30%;
+    text-align: center;
+    line-height: 300%;
+   
+}
