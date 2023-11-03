@@ -3,7 +3,14 @@ body{
 
 }
 header{
-    margin-top: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white; 
+    color: #fff; 
+    padding: 10px;
+    z-index: 1000; 
 }
 header a {
     display: inline; /* tag para deixar as palavras (ou os itens de um determinado bloco em linhas */ 
@@ -202,22 +209,91 @@ header a {
 }
 #func div {
     display: inline-block;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 70px;
+    margin-right: 70px;
     position: relative;
     top: 30px;
     vertical-align: top; 
     margin-top: 10px;
 }
 
-#func01, #func02 {
-    width: 300px;
-    height: 300px;
+#func01, #func02,#func03 {
+    width: 330px;
+    height: 330px;
     background-color: white;
     text-align: center; 
 }
 
-#func01 p, #func02 p {
-    font-size: 15px;
+#func01 p, #func02 p,#func03 p {
+    font-size: 16px;
     text-align: center;
+}
+#func img{
+    width: 200px;
+    height: 150px;
+
+}
+#func a{
+    position: absolute;
+    top:105%;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color:green;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 45%;
+    text-align: center;
+    line-height: 300%;
+    
+}
+#celular{
+    margin-left: -10px;
+    position: relative;
+    margin-top: 100px;
+    width: 101.25%;
+    height: 750px;
+    background: url("Imagens/celular.jpg") no-repeat;
+    background-size: cover;
+    
+}
+#celular::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+
+}
+#celular h1{
+    color:white;
+    position: relative;
+    top: 30%;
+    right: 20%;
+}
+#celular p{
+        position: relative;
+        top:35%;
+        left: 15%;
+        font-size: 18px;
+        line-height: 1.4;
+        color: white;
+        margin: 10px 0;
+        width: 500px;
+        height: 70px;
+}
+#celular a{
+    position: absolute;
+    top:80%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 25%;
+    text-align: center;
+    line-height: 300%;
 }
