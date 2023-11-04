@@ -2,6 +2,7 @@ body{
     width: 99%;
 
 }
+
 header{
     position: fixed;
     top: 0;
@@ -303,14 +304,18 @@ header a {
    margin-top: 40px;
     width: 80%;
  }
-  
-  #empresas {
+    
+#empresas {
+    display: inline-block;
     margin: 5px ; 
     text-align: center; 
   }
   
   #empresas img {
-    margin: 60px; 
+    margin: 40px;
+    width: 150px;
+    height: auto; 
+
     
   }
   #inspiracao{
@@ -365,4 +370,95 @@ header a {
     line-height: 300%;
     
 }
+
+#rodap1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .conteudo-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1px; 
+  }
+  
+  .conteudo-inferior {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    margin-right: 20px;
+  }
+.conteudo-inferior img{
+    margin-right: 50px;
+}
+  
+  #rodap1 p {
+    width: 500px;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  #rodap1 img {
+    width: 150px;
+    height: auto;
+  }
+
+  #rodap2{
+    background-color: gray;
+    height: 400px;
+    margin-top: 10px;
+  }
+  .iconerp{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url('icones/ATI_icon.ico');
+    background-size: contain;
+}
+#rodap2 a{
+    font-size: 22px;
+    color: white;
+    
+}
+#pt1{
+    position: relative;
+    margin-left: 650px;
+    top: 20%;
+}
+#pt1 a{
+    text-decoration: none;
+}
+#pt2 a{
+    margin: 10px;
+    color:white;
+   
+}
+#pt2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#pt2 a:not(:last-child)::after {
+    content: "|"; 
+    margin: 0 10px; 
+    color: white;
+ }
+#pt2{
+    position: relative;
+    margin-top: 30px;
+}
+#pt2 img{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+  
+  
   
