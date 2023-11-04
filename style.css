@@ -1,5 +1,5 @@
 body{
-    width: 98.9%;
+    width: 99%;
 
 }
 header{
@@ -43,10 +43,10 @@ header a {
     background-size: contain;
 }
 #E-commerce{
-   right: 10px;
+    right: 10px;
     position: relative;
     margin-top: 30px;
-    width: 101.25%;
+    width: 101%;
     height: 680px;
     background: url("Imagens/Background_E-commerce.jpg") no-repeat;
     background-size: cover;
@@ -151,10 +151,10 @@ header a {
     right: 10px;
     position: relative;
     margin-top: 30px;
-    width: 101.25%;
     height: 680px;
     background: url("Imagens/UI-UX-Design.jpg") no-repeat;
     background-size: cover;
+    width: 101%;
 }
 #ux::before{
     content: "";
@@ -245,13 +245,14 @@ header a {
     
 }
 #celular{
-    margin-left: -10px;
+    
+    right: 10px;
     position: relative;
     margin-top: 100px;
-    width: 101.25%;
     height: 750px;
     background: url("Imagens/celular.jpg") no-repeat;
     background-size: cover;
+    width: 101%;
     
 }
 #celular::before{
@@ -294,3 +295,74 @@ header a {
     text-align: center;
     line-height: 300%;
 }
+
+#video {
+    text-align: center; 
+}
+  video {
+   margin-top: 40px;
+    width: 80%;
+ }
+  
+  #empresas {
+    margin: 5px ; 
+    text-align: center; 
+  }
+  
+  #empresas img {
+    margin: 60px; 
+    
+  }
+  #inspiracao{
+    right: 10px;
+    position: relative;
+    margin-top: 30px;
+    height: 680px;
+    background: url("Imagens/empresas.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    width: 101%;
+    
+  }
+#inspiracao::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+
+}
+#inspiracao h1{
+    position: relative;
+    top: 150px;
+    color: white;
+    right: 20%;
+
+}
+#inspiracao p{
+    position: relative;
+    top: 200px;
+    font-size: 18px;
+    color: white;
+    width: 500px;
+    height: 70px;
+    left: 150px;
+    
+}
+#inspiracao  a{
+    position: absolute;
+    top:70%;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    width: 200px;
+    height: 50px;
+    left: 20%;
+    text-align: center;
+    line-height: 300%;
+    
+}
+  
