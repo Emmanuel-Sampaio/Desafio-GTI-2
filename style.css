@@ -1,5 +1,5 @@
 body{
-    
+    width: 98.9%;
 
 }
 header{
@@ -19,11 +19,9 @@ header a {
     text-decoration: none; /* Tirar o sublinhado do A href */
     font-size: 20px;
 } 
-.menu-rigth{
-    float: right;
-    margin-left: 500px;
-    margin-top: -20px;
-
+#navdir{
+    position: relative;
+    left:20%;
 }
 
 
@@ -45,7 +43,7 @@ header a {
     background-size: contain;
 }
 #E-commerce{
-    margin-left: -10px;
+   right: 10px;
     position: relative;
     margin-top: 30px;
     width: 101.25%;
@@ -150,7 +148,7 @@ header a {
 
 }
 #ux{
-    margin-left: -10px;
+    right: 10px;
     position: relative;
     margin-top: 30px;
     width: 101.25%;
@@ -179,7 +177,6 @@ header a {
     font: bolder, 'Arial';
     font-size: 17px;
     color: white;
-    width: 100%;
     text-align: left;
     top: 45%;
     left: 18%;
