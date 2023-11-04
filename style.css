@@ -326,8 +326,7 @@ header a {
     background: url("Imagens/empresas.jpg") no-repeat;
     background-size: cover;
     margin-top: 100px;
-    width: 101%;
-    
+    width: 101%;  
   }
 #inspiracao::before{
     content: "";
@@ -514,10 +513,3 @@ header a {
 #pt4 a{
     color:white;
 }
-
-  
-  
-
-  
-  
-  
